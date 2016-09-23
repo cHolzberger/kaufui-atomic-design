@@ -8,9 +8,14 @@ section {
     margin-top: 3em;
     margin-left: 2em;
     margin-right: 2em;
+    background-color: ghostwhite;
 }
 
 /* the designed atoms */
+
+.white {
+    color: white;
+}
 
 header {
     font-family: "Lato", sans-serif;
@@ -21,6 +26,15 @@ header {
 
 .center {
     text-align: center;
+}
+
+/* TODO: the margin should be avoided?! */
+.text_full_width {
+    font-family: "Lato", sans-serif;
+    background-color: #464553;
+    line-height: 5rem;
+    margin-top: 5rem;
+    vertical-align: middle;
 }
 
 .input {
@@ -59,7 +73,7 @@ header {
 
 /* TODO: this does not look good, the floating arrow counts into the width calculation of the button */
 .button_content_sized::after {
-    content:"\2192";
+    content: "\2192";
     display: inline;
     color: white;
     font-weight: bold;
@@ -81,9 +95,8 @@ header {
     width: 100%;
 }
 
-
 .button_full_width::after {
-    content:"\2192";
+    content: "\2192";
     display: inline;
     color: white;
     font-weight: bold;
