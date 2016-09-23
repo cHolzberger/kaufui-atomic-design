@@ -1,6 +1,7 @@
 /* CSS rules just for the view. not part of the atomic design. */
 p {
     font-family: "Lato", sans-serif;
+    padding: 1rem;
 }
 
 section {
@@ -11,6 +12,17 @@ section {
 
 /* the designed atoms */
 
+header {
+    font-family: "Lato", sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
 .input {
     font-family: "Lato", sans-serif;
     border: 0;
@@ -19,6 +31,7 @@ section {
     width: 100%;
     border-bottom: 1px solid lightgrey;
     font-size: 1.5rem;
+    text-indent: 2rem;
 }
 
 .label {
@@ -26,14 +39,16 @@ section {
     color: lightgrey;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 0.75rem;
+    padding-left: 2rem;
 }
 
 .button_content_sized {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
-    border-radius: 20px;
-    line-height: 40px;
+    border-radius: 30px;
+    line-height: 3rem;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     outline: 0;
     border: 0;
@@ -42,12 +57,23 @@ section {
     padding-right: 5em;
 }
 
+/* TODO: this does not look good, the floating arrow counts into the width calculation of the button */
+.button_content_sized::after {
+    content:"\2192";
+    display: inline;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    float: right;
+    padding-right: 10px;
+}
+
 .button_full_width {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
-    border-radius: 20px;
-    line-height: 40px;
+    border-radius: 30px;
+    line-height: 3rem;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     outline: 0;
     border: 0;
@@ -55,13 +81,24 @@ section {
     width: 100%;
 }
 
+
+.button_full_width::after {
+    content:"\2192";
+    display: inline;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    float: right;
+    padding-right: 10px;
+}
+
 .button_sub_full {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
     width: 100%;
-    border-radius: 20px;
-    line-height: 40px;
+    border-radius: 30px;
+    line-height: 3rem;
     outline: 0;
     border: 0;
     text-transform: uppercase;
@@ -71,10 +108,12 @@ section {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
-    border-radius: 20px;
-    line-height: 40px;
+    border-radius: 30px;
+    line-height: 3rem;
     outline: 0;
     border: 0;
+    padding-left: 5em;
+    padding-right: 5em;
     text-transform: uppercase;
 }
 
