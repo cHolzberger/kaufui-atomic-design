@@ -1,11 +1,36 @@
 /* CSS rules just for the view. not part of the atomic design. */
 .kaufui * {
-  font-family: lato, sans-serif;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+.kaufui .text-normal {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.kaufui .text-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: thin;
+}
+
+.kaufui .text-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.kaufui .text-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 .kaufui p {
-    font-family: "Lato", sans-serif;
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .kaufui section {
