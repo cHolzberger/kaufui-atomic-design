@@ -1,4 +1,8 @@
 /* CSS rules just for the view. not part of the atomic design. */
+.kaufui {
+	background-color: #f1f1f1;
+}
+
 .kaufui * {
   font-family: "Lato", sans-serif;
   font-style: normal;
