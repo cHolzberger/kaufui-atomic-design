@@ -78,10 +78,8 @@
 }
 
 .kaufui .label {
-    font-family: "Lato", sans-serif;
     color: lightgrey;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 0.75rem;
     padding-left: 2rem;
 }
