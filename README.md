@@ -2,11 +2,13 @@
 
 Kaufui implementation based on atomic-ui principles
 
-## TODO 
+## TODO
 
-[ ] add browser normalize / reset 
+[ ] add browser normalize / reset
 [ ] use scss
 [ ] use a framework to build demo
+[ ] sections are messed up, mixing demo colors with atoms
+[ ] positioning has some bugs see molecules
 
 ## Source
 
