@@ -145,3 +145,12 @@
     padding-right: 5em;
     text-transform: uppercase;
 }
+
+/**
+* a white box with rounded corners
+*/
+.kaufui .box {
+  margin: 1em;
+  border-radius: .5em;
+  background-color: white;
+}
