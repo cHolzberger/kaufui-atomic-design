@@ -1,10 +1,14 @@
 /* CSS rules just for the view. not part of the atomic design. */
-p {
+.kaufui * {
+  font-family: lato, sans-serif;
+}
+
+.kaufui p {
     font-family: "Lato", sans-serif;
     padding: 1rem;
 }
 
-section {
+.kaufui section {
     margin-top: 3em;
     margin-left: 2em;
     margin-right: 2em;
@@ -13,23 +17,23 @@ section {
 
 /* the designed atoms */
 
-.white {
+.kaufui .white {
     color: white;
 }
 
-header {
+.kaufui header {
     font-family: "Lato", sans-serif;
     color: grey;
     text-align: center;
     font-size: 2rem;
 }
 
-.center {
+.kaufui .center {
     text-align: center;
 }
 
 /* TODO: the margin should be avoided?! */
-.text_full_width {
+.kaufui .text_full_width {
     font-family: "Lato", sans-serif;
     background-color: #464553;
     line-height: 5rem;
@@ -37,7 +41,7 @@ header {
     vertical-align: middle;
 }
 
-.input {
+.kaufui .input {
     font-family: "Lato", sans-serif;
     border: 0;
     outline: 0;
@@ -48,7 +52,7 @@ header {
     text-indent: 2rem;
 }
 
-.label {
+.kaufui .label {
     font-family: "Lato", sans-serif;
     color: lightgrey;
     text-transform: uppercase;
@@ -57,7 +61,7 @@ header {
     padding-left: 2rem;
 }
 
-.button_content_sized {
+.kaufui .button_content_sized {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
@@ -72,7 +76,7 @@ header {
 }
 
 /* TODO: this does not look good, the floating arrow counts into the width calculation of the button */
-.button_content_sized::after {
+.kaufui .button_content_sized::after {
     content: "\2192";
     display: inline;
     color: white;
@@ -82,7 +86,7 @@ header {
     padding-right: 10px;
 }
 
-.button_full_width {
+.kaufui .button_full_width {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
@@ -95,7 +99,7 @@ header {
     width: 100%;
 }
 
-.button_full_width::after {
+.kaufui .button_full_width::after {
     content: "\2192";
     display: inline;
     color: white;
@@ -105,7 +109,7 @@ header {
     padding-right: 10px;
 }
 
-.button_sub_full {
+.kaufui .button_sub_full {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
@@ -117,7 +121,7 @@ header {
     text-transform: uppercase;
 }
 
-.button_sub_content {
+.kaufui .button_sub_content {
     font-family: "Lato", sans-serif;
     background-color: dimgrey;
     color: white;
@@ -130,7 +134,7 @@ header {
     text-transform: uppercase;
 }
 
-.button_sub_content_outline {
+.kaufui .button_sub_content_outline {
     font-family: "Lato", sans-serif;
     background-color: white;
     color: grey;
@@ -141,5 +145,3 @@ header {
     padding-right: 5em;
     text-transform: uppercase;
 }
-
-
