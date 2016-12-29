@@ -33,6 +33,11 @@
 
 }
 
+
+.kaufui .text-grey {
+    color: #93939F;
+}
+
 .kaufui p {
     padding: 1rem;
 }
@@ -179,6 +184,7 @@
     margin: 1em;
     border-radius: .5em;
     background-color: white;
+    width: 500px;
 }
 
 .kaufui .row_full_width_with_elements {
