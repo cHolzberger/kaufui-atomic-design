@@ -182,3 +182,9 @@
     border-radius: .5em;
     background-color: white;
 }
+
+.kaufui .row_full_width_with_elements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
