@@ -1,11 +1,11 @@
 /* CSS rules just for the view. not part of the atomic design. */
 .kaufui {
-	background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .kaufui * {
-  font-family: "Lato", sans-serif;
-  font-style: normal;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
 }
 
 .kaufui .text-normal {
@@ -34,7 +34,7 @@
 }
 
 .kaufui p {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .kaufui section {
@@ -55,6 +55,7 @@
     color: grey;
     text-align: center;
     font-size: 2rem;
+    padding: 1rem;
 }
 
 .kaufui .center {
@@ -177,7 +178,7 @@
 * a white box with rounded corners
 */
 .kaufui .box {
-  margin: 1em;
-  border-radius: .5em;
-  background-color: white;
+    margin: 1em;
+    border-radius: .5em;
+    background-color: white;
 }
