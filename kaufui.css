@@ -217,6 +217,10 @@
     margin-right: 0;
 }
 
+.kaufui .div_button_same_line_20:hover {
+    background-color: #468c46;
+}
+
 .kaufui .div_same_line_80 {
     width: 69.4%;
     display: inline-block;
