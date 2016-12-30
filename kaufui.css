@@ -34,13 +34,13 @@
 }
 
 .kaufui p {
-    padding: 1em;
+    padding: 1rem;
 }
 
 .kaufui section {
-    margin-top: 3em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     background-color: ghostwhite;
 }
 
@@ -58,8 +58,8 @@
     font-family: "Lato", sans-serif;
     color: grey;
     text-align: center;
-    font-size: 2em;
-    padding: 1em;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 .kaufui .center {
@@ -69,7 +69,7 @@
 .kaufui .text_full_width {
     font-family: "Lato", sans-serif;
     background-color: #464553;
-    line-height: 5em;
+    line-height: 5rem;
     vertical-align: middle;
 }
 
@@ -80,15 +80,15 @@
     background: transparent;
     width: 100%;
     border-bottom: 1px solid lightgrey;
-    font-size: 1.5em;
-    text-indent: 2em;
+    font-size: 1.5rem;
+    text-indent: 2rem;
 }
 
 .kaufui .label {
     color: lightgrey;
     text-transform: uppercase;
-    font-size: 0.75em;
-    padding-left: 2em;
+    font-size: 0.75rem;
+    padding-left: 2rem;
 }
 
 .kaufui .button_content_sized {
@@ -96,13 +96,13 @@
     background-color: dimgrey;
     color: white;
     border-radius: 30px;
-    line-height: 3em;
+    line-height: 3rem;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     outline: 0;
     border: 0;
     text-transform: uppercase;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 /* TODO: this does not look good, the floating arrow counts into the width calculation of the button */
@@ -111,7 +111,7 @@
     display: inline;
     color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     float: right;
     padding-right: 10px;
 }
@@ -121,7 +121,7 @@
     background-color: dimgrey;
     color: white;
     border-radius: 30px;
-    line-height: 3em;
+    line-height: 3rem;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     outline: 0;
     border: 0;
@@ -134,7 +134,7 @@
     display: inline;
     color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     float: right;
     padding-right: 10px;
 }
@@ -145,7 +145,7 @@
     color: white;
     width: 100%;
     border-radius: 30px;
-    line-height: 3em;
+    line-height: 3rem;
     outline: 0;
     border: 0;
     text-transform: uppercase;
@@ -156,11 +156,11 @@
     background-color: dimgrey;
     color: white;
     border-radius: 30px;
-    line-height: 3em;
+    line-height: 3rem;
     outline: 0;
     border: 0;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 5rem;
+    padding-right: 5rem;
     text-transform: uppercase;
 }
 
@@ -169,10 +169,10 @@
     background-color: white;
     color: grey;
     border-radius: 30px;
-    line-height: 3em;
+    line-height: 3rem;
     border: 4px solid lightgreen;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 5rem;
+    padding-right: 5rem;
     text-transform: uppercase;
 }
 
@@ -234,4 +234,5 @@
     width: 100%;
     font-size: 3rem;
     text-indent: 2rem;
+    color: white;
 }
